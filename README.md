@@ -6,6 +6,25 @@
 
 A full-stack banking application with React frontend, Node.js backend, and MySQL database. Features automated deployment to AWS via GitHub Actions.
 
+## 🌐 Live Demo
+
+**🚀 Try it now:** http://52.15.101.74:3001
+
+- **Frontend Application:** http://52.15.101.74:3001
+- **Backend API:** http://52.15.101.74:3000/api
+- **Health Check:** http://52.15.101.74:3000/api/health
+
+> **Note:** This is a demonstration project running on AWS Free Tier. The application uses HTTP (not HTTPS) for simplicity.
+
+### Features You Can Try:
+- ✅ View all bank accounts
+- ✅ Create new accounts
+- ✅ Transfer money between accounts
+- ✅ Real-time balance updates
+- ✅ Transaction history
+
+---
+
 ## 🚀 Features
 
 - ✅ Account management (create, view accounts)
@@ -80,6 +99,30 @@ Complete CI/CD pipeline that auto-deploys on every git push!
 ├── deploy-to-aws.ps1   # Quick deploy script
 └── README.md
 ```
+
+## 🎯 Project Highlights for Interviews
+
+This project demonstrates expertise in:
+
+### Technical Skills:
+- ✅ **Full-Stack Development** - React + Node.js + MySQL
+- ✅ **Docker & Containerization** - Multi-container orchestration
+- ✅ **CI/CD Pipeline** - GitHub Actions automated deployment
+- ✅ **Cloud Infrastructure** - AWS EC2 deployment
+- ✅ **Database Design** - ACID transactions, row-level locking
+- ✅ **RESTful API Design** - Clean, scalable API architecture
+- ✅ **Security Best Practices** - SQL injection prevention, CORS
+- ✅ **DevOps** - Infrastructure as Code
+
+### Live Demonstration:
+**🌐 Working Application:** http://52.15.101.74:3001
+
+**Key Features to Showcase:**
+- Real-time balance updates
+- Safe concurrent transactions
+- Database transaction integrity
+- Auto-deployment on code changes
+- Production-ready containerized setup
 
 ## 📊 API Endpoints
 
