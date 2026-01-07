@@ -8,6 +8,9 @@ RUN npm install
 
 COPY . .
 
+# Set API URL for build
+ENV VITE_API_URL=http://52.15.101.74:3000/api
+
 RUN npm run build
 
 # Production stage with nginx
